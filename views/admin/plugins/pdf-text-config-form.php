@@ -70,16 +70,6 @@
         ?>
     </div>
 
-    <p> _______________________________________________________________ </p>
-    <pre>
-      <?php //$RequiredTypes = json_decode(get_option('pdf_text_required_types'), true)->RequiredFileTypes;
-    //   echo(get_option('pdf_text_required_types')->RequiredFileTypes) ;
-    $RequiredTypes = json_decode(get_option('pdf_text_required_types'), true)["RequiredFileTypes"];
-    var_dump($RequiredTypes) ;
-      ?>
-    </pre>
-      <p> _______________________________________________________________ </p>
-
     <div class="inputs four columns omega" style ="float:right;">
         <?php if ($this->valid_storage_adapter):
           // A reworked version of the reset command
