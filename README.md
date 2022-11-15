@@ -1,7 +1,7 @@
 ## Filter the PDFs to extract text from using their Dublin Core Type     
 
 This plugin enables searching on PDF files by extracting their texts and saving them to their file records, in the  `PDF Text` Metadata.
-**This forked version of the PDFText plugin, by the Omeka Developers Team adds customizable conditions to filter the files depending on their metadata `Dublin Core:Type` value.**
+**This forked version of the [PDFText plugin](https://github.com/omeka/plugin-PdfText), by the Omeka Developers Team adds customizable conditions to filter the files depending on their metadata `Dublin Core:Type` value.**
 
 * In the plugin config form, a list enumerates all possible values of the files Dublin Core : Type metadata in your Omeka's database.
 * All the PDF Files with a dc:type  equal to the checked values in this list will have their text extracted and saved in a `PDF Text` Metadata (just as the original plugin does).
@@ -15,6 +15,11 @@ This plugin enables searching on PDF files by extracting their texts and saving 
 2. Rename this forked plugin to `PdfText/` (instead of `PdfText-FilterFileByType/`)
 3. Install, activate and set up the configuration just like any plugin (http:<your_omeka>/admin/plugins/ page)
 * *The list of types won't be initialized the first time you open the config page : just save and exit, and when coming back on the config page all the dc:type values given to your files will be there.*
+
+## Acknoledgment and License
+
+This work is entirely based upon the [PDFText plugin](https://github.com/omeka/plugin-PdfText), by the developers of Omeka at the [Corporation for Digital Scholarship](https://digitalscholar.org/).
+Omeka is licensed under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/), and - by extension ? - so is their plugin.
 
 ## Todo
 
